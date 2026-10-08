@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "error-triage": {
+      "command": "python",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/triage_mcp/server.py"],
+      "env": {
+        "TRIAGE_API_URL": "http://127.0.0.1:8000",
+        "TRIAGE_AUTOSTART": "1"
+      }
+    }
+  }
+}

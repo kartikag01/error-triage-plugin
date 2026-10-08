@@ -1,0 +1,13 @@
+{
+  "name": "error-triage",
+  "description": "On-call error triage for VS Code agents: groups production errors, ranks them by urgency, and guides the agent to fix the worst one with a regression test.",
+  "version": "1.0.0",
+  "author": { "name": "Your Team" },
+  "license": "MIT",
+  "keywords": ["triage", "errors", "mcp", "on-call", "fastapi"],
+  "skills": "skills/",
+  "agents": "agents/",
+  "commands": "commands/",
+  "hooks": "hooks.json",
+  "mcpServers": ".mcp.json"
+}

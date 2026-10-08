@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "error-triage": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": [
+        "${workspaceFolder}/triage_mcp/server.py"
+      ],
+      "env": {
+        "TRIAGE_API_URL": "http://127.0.0.1:8000",
+        "TRIAGE_AUTOSTART": "1",
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  }
+}
